@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
+    //Customer role, claim konularının attributelerini unutma [SecuredOperation]
     public class CustomerManager : ICustomerService
     {
         ICustomerDal _customerDal;
